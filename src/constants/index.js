@@ -89,10 +89,10 @@ import {
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
-export const resumeLink = "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const resumeLink = "https://drive.google.com/https://drive.google.com/file/d/1fbJ16xMRcBmAa_VyjzKy-j7mzJurL7IW/view?usp=drivesdk/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+export const repoLink = "https://github.com/thejatinbaghel/personal-portfolio";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/jatin-baghel";
 
 export const navLinks = [
   {
@@ -130,19 +130,30 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
+    title: "Lovely Professional University",
     degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    duration: "October 2022 - Current",
+    content1: "Domain: Full-Stack Web Development"
+    // content1: "Major: Electronics and Communication Engineering",
+    // content2: "Minor: Information Technology",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Polkadot Blockchain Academy",
+    title: "OPGM Senior Seconday School",
     degree: "",
-    duration: "May 2024 - June 2024",
-    content1: "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "April 2021 - March 2022",
+    // content1: "Graduated with a distinction in the fifth cohort of the OPGM Senior Seconday School at the National University of Singapore.",
+    content1: "Intermediate"
+  },
+  {
+    id: "education-2",
+    icon: pba,
+    title: "Tribhuvan Devi Academy",
+    degree: "",
+    duration: "April 2018 - May 2019",
+    // content1: "Graduated with a distinction in the fifth cohort of the OPGM Senior Seconday School at the National University of Singapore.",
+    content1: "High School"
   },
 ];
 
@@ -505,12 +516,12 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
+    title: "Zaika",
     github: "https://github.com/ayush4345/Comicify.ai",
     link: "https://comicify-ai.vercel.app/",
     image: comicify_ai,
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Geolocate nearby restaurants and order food online.",
     stack: [
       {
         id: "icon-1",
@@ -541,12 +552,12 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "GreenTrust",
+    title: "HealthBridge",
     github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
+    // link: "https://green-trust-fantom.netlify.app/",
     image: greentrust,
     content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+      "Hospital Management System",
     stack: [
       {
         id: "icon-1",
@@ -582,12 +593,12 @@ export const projects = [
   },
   {
     id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
+    title: "TravelLite",
+    github: "https://github.com/thejatinbaghel/TravelLite",
+    // link: "https://devfolio.co/projects/chargeswap-3527",
     image: chargeswap,
     content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+      "A travel agency web application powered by Django + MySQL + Materialize CSS",
     stack: [
       {
         id: "icon-1",
@@ -628,12 +639,12 @@ export const projects = [
   },
   {
     id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+    title: "Messenger X",
+    github: "https://github.com/thejatinbaghel/realtime-chat",
+    // link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
     image: placeicon,
     content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+      "Realtime chatting website",
     stack: [
       {
         id: "icon-1",
@@ -688,165 +699,165 @@ export const projects = [
       },
     ],
   },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content:
-      "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails"
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework"
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter"
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit"
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma"
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API"
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript"
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap"
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js"
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS"
-      }
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS"
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML"
-      },
-    ],
-  },
+  // {
+  //   id: "project-6",
+  //   title: "Career Development Centre, NITK Website",
+  //   github: "",
+  //   link: "http://cdc.nitk.ac.in/",
+  //   image: cdc,
+  //   content:
+  //     "The official website of CDC, NITK with a custom built CMS.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiRubyonrails,
+  //       name: "Ruby on Rails"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiBootstrap,
+  //       name: "Bootstrap"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiJavascript,
+  //       name: "JavaScript"
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-7",
+  //   title: "Stocky",
+  //   github: "https://github.com/thejatinbaghel/stocky",
+  //   // link: "https://devfolio.co/projects/huntly-b5a9",
+  //   image: huntly,
+  //   content:
+  //     "Stocky is a fullstack web application built with Java, Spring Boot, and Angular that helps busy store owners manage all of their stores in one place. This app is designed to be both robust and user-friendly, with a sleek and modern interface.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiDjango,
+  //       name: "Django Rest Framework"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiFlutter,
+  //       name: "Flutter"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiReplit,
+  //       name: "Replit"
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiFlask,
+  //       name: "Flask"
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiFigma,
+  //       name: "Figma"
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: SiGooglemaps,
+  //       name: "Google Maps API"
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-8",
+  //   title: "Cluboard",
+  //   github: "https://github.com/mittal-parth/Cluboard",
+  //   link: "",
+  //   image: cluboard,
+  //   content:
+  //     "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiDjango,
+  //       name: "Django"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: AiFillHtml5,
+  //       name: "HTML"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: DiCss3,
+  //       name: "CSS"
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiJavascript,
+  //       name: "JavaScript"
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiBootstrap,
+  //       name: "Bootstrap"
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: SiChartdotjs,
+  //       name: "Chart.js"
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-9",
+  //   title: "Cash Flow Minimiser",
+  //   github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
+  //   link: "https://minimise-cash-flow.netlify.app/",
+  //   image: cash_flow,
+  //   content:
+  //     "A React application to help users visualise and minimise cash flow among multiple transactions.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: AiFillHtml5,
+  //       name: "HTML"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: DiCss3,
+  //       name: "CSS"
+  //     }
+  //   ],
+  // },
+  // {
+  //   id: "project-10",
+  //   title: "Portfolio",
+  //   github: "https://github.com/mittal-parth/personal-portfolio",
+  //   link: "https://parthmittal.netlify.app/",
+  //   image: portfolio,
+  //   content: "Personal portfolio website with React and Tailwind CSS.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React"
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "Tailwind CSS"
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: AiFillHtml5,
+  //       name: "HTML"
+  //     },
+  //   ],
+  // },
 ];
 
 // Add links to blogs here
@@ -1051,7 +1062,7 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "Parth Mittal",
+    name: "Jatin Baghel",
     githubUsername: 'mittal-parth',
     tagLine: "MTS-1 @Oracle | ex-Tech Lead @IRIS,NITK | ETHIndia'22,24 Winner | 8x Hackathon Winner | NITK'24 | PBA-5",
     intro: "Software Developer from India who is either busy improving his craft or pondering over the next big idea."
