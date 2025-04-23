@@ -3,7 +3,7 @@ import LetsConnect from "./LetsConnect";
 import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
-
+import { AiFillGithub } from "react-icons/ai";
 
 // lottie config
 const defaultOptions = {
@@ -44,6 +44,7 @@ const Hero = () => {
         </p>
       </div>
 
+
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
@@ -56,6 +57,7 @@ const Hero = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <LetsConnect />
       </div>
+      
     </section>
   );
 };

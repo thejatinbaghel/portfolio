@@ -1,5 +1,5 @@
 import parthmittal from "./jatin.png";
-import profilePic from "./profile-pic.jpg";
+import profilePic from "./jatin.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrowUp from "./arrow-up.svg";
