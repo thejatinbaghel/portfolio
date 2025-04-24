@@ -117,11 +117,11 @@ const SkillsAndExperience = () => {
         </motion.div>
 
         {/* Experience */}
-        <motion.div className="flex flex-1 items-center justify-start flex-col">
+        {/* <motion.div className="flex flex-1 items-center justify-start flex-col">
           {experiences.map((exp, index) => (
             <ExperienceCard key={index} index={index} {...exp} />
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );
