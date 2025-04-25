@@ -462,14 +462,45 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
+  // {
+  //   organisation: "Oracle, India",
+  //   logo: oracle,
+  //   link: "https://www.oracle.com/in/",
+  //   positions: [
+  //     {
+  //       title: "Member of Technical Staff - 1",
+  //       duration: "Jul 2024 - Present",
+  //       content: [
+  //         {
+  //           text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
+  //           link: "",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: "Member of Technical Staff Intern",
+  //       duration: "May 2023 - Jul 2023",
+  //       content: [
+  //         {
+  //           text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+  //           link: "",
+  //         },
+  //         {
+  //           text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+  //           link: ""
+  //         }
+  //       ],
+  //     },
+  //   ],
+  // },
   {
-    organisation: "Oracle, India",
+    organisation: "Cloud Computing",
     logo: oracle,
     link: "https://www.oracle.com/in/",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "IIT Kharagpur",
+        duration: "October 2024",
         content: [
           {
             text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
