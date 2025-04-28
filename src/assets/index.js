@@ -22,6 +22,7 @@ import greentrust from "./green_trust.png";
 import averlon from "./averlon.jpg";
 import devfolio from "./devfolio.png";
 import pba from "./opgm.png";
+import tda from "./tda.png";
 import ethglobal from "./ethglobal.png";
 import polkadot from "./polkadot.jpeg";
 import lightspeed from "./lightspeed.png";
@@ -56,6 +57,7 @@ export {
   averlon,
   devfolio,
   pba,
+  tda,
   ethglobal,
   polkadot,
   lightspeed,

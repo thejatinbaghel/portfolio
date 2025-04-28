@@ -55,15 +55,18 @@ const App = () => {
             >
               <div className={`${styles.boxWidth}`}>
                 <SkillsAndExperience />
-                <Education />
+                {/* <Education /> */}
               </div>
             </div>
+            {/* <Projects /> */}
             <Achievements />
+            
             <div
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >
               <div className={`${styles.boxWidth}`}>
                 <Projects />
+                <Education />
                 <BlogPosts enabled={false} />
                 {/* <OpenSource /> */}
                 {/* <ExtraCurricular /> */}
