@@ -596,10 +596,36 @@ export const experiences = [
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
+    {
+    id: "project-6",
+    title: "JobReady AI",
+    github: "https://github.com/thejatinbaghel/JobReady-AI",
+    link: "http://jobreadyai.jatin.app/",
+    image: cdc,
+    content:
+      "The official website of CDC, NITK with a custom built CMS.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiRubyonrails,
+        name: "Ruby on Rails"
+      },
+      {
+        id: "icon-2",
+        icon: SiBootstrap,
+        name: "Bootstrap"
+      },
+      {
+        id: "icon-3",
+        icon: SiJavascript,
+        name: "JavaScript"
+      },
+    ],
+  },
   {
     id: "project-1",
     title: "Zaika",
-    github: "https://github.com/ayush4345/Comicify.ai",
+    github: "https://github.com/thejatinbaghel/Zaika",
     link: "https://thejatinbaghel.github.io/Zaika/",
     image: comicify_ai,
     content:
@@ -757,7 +783,7 @@ export const projects = [
   },
   {
     id: "project-5",
-    title: "Hostel Management System",
+    title: "JobReady AI",
     github: "https://github.com/thejatinbaghel/Hostel-Management-System",
     link: "",
     image: recruitment,
@@ -781,32 +807,7 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: "project-6",
-  //   title: "Career Development Centre, NITK Website",
-  //   github: "",
-  //   link: "http://cdc.nitk.ac.in/",
-  //   image: cdc,
-  //   content:
-  //     "The official website of CDC, NITK with a custom built CMS.",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiRubyonrails,
-  //       name: "Ruby on Rails"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiBootstrap,
-  //       name: "Bootstrap"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiJavascript,
-  //       name: "JavaScript"
-  //     },
-  //   ],
-  // },
+
   // {
   //   id: "project-7",
   //   title: "Stocky",
