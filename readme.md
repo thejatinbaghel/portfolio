@@ -2,7 +2,7 @@
 
 <img width="945" alt="image" src="./src/assets/screenshot.png">
 
-### Deployed link: https://parthmittal.netlify.app/
+### Deployed link: https://jatin.app/
 
 ## Table of Contents 📁
 
